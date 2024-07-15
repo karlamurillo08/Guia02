@@ -16,6 +16,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  border-bottom: 1px solid #ccc;
 }
 
 .description a {
@@ -23,6 +24,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  border-top: 1px solid #ccc;
 }
 
 .description p {
@@ -32,6 +34,7 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  border-bottom: 1px solid #ccc;
 }
 
 .code {
@@ -39,11 +42,44 @@
   font-family: var(--font-mono);
 }
 
+.container__list {
+  list-style-type: none;
+  border-bottom: 25px 
+  
+
+}
+
+
+.list {
+  margin-bottom: 25px;
+  }
+  .title {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+  }
+  .nameclub {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgb(29, 84, 185);
+  }
+  .jugador_imagen {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    
+  }
+  
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+  
 }
 
 .card {
@@ -104,6 +140,7 @@
   filter: blur(45px);
   transform: translateZ(0);
 }
+
 
 .logo {
   position: relative;
